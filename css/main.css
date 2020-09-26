@@ -652,7 +652,7 @@ table tr:hover {
 .site-header {
   height: 60px;
   position: relative;
-  background-color: #0078d9;
+  background-color: #141e7d;
   overflow: hidden;
 }
 
@@ -668,7 +668,8 @@ table tr:hover {
 
 .site-logo a {
   display: inline-block;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Georgia';
+  font-style: italic;
   font-size: 36px;
   font-weight: 400;
   text-decoration: none;
@@ -940,12 +941,13 @@ table tr:hover {
   font-size: 60px;
   font-weight: 700;
   line-height: 1.3;
-  color: rgba(0, 120, 217, 0.6);
+  color: rgba(0, 58, 166, 0.6);
   text-shadow: 0px 1px 1px rgba(51, 51, 51, 0.1);
 }
 
 .hero-content .hero-description {
   margin-top: 15px;
+  font-family: 'Georgia';
   font-size: 24px;
   font-weight: 400;
   line-height: 1.7;
@@ -1110,7 +1112,6 @@ table tr:hover {
 }
 
 .posts:hover .cover,
-.posts:hover .author-box,
 .posts:hover .post-share {
   opacity: 1;
 }
@@ -1228,44 +1229,6 @@ table tr:hover {
   color: #000000;
   -webkit-box-shadow: inset 0 -8px 0 rgba(0, 197, 217, 0.6);
           box-shadow: inset 0 -8px 0 rgba(0, 197, 217, 0.6);
-}
-
-.post-share {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  -webkit-transition: all .35s ease-in-out;
-  -o-transition: all .35s ease-in-out;
-  transition: all .35s ease-in-out;
-  opacity: 0;
-}
-
-.post-share .share-icon {
-  display: inline-block;
-  font-size: 15px;
-  padding: 5px;
-  color: #ffffff;
-  -webkit-transition: all .2s ease-in-out;
-  -o-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
-}
-
-.post-share .share-icon:hover {
-  -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
-.post-share .share-twitter:hover {
-  color: #55acee;
-}
-
-.post-share .share-facebook:hover {
-  color: #3b5999;
-}
-
-.post-share .share-pinterest:hover {
-  color: #bd081c;
 }
 
 /* 6. ========== Post Page Styles ========== */
@@ -1438,7 +1401,7 @@ table tr:hover {
   transition: all .25s ease;
 }
 
-.post-content::first-letter,
+/*.post-content::first-letter,
 .post-content > p:first-of-type::first-letter {
   display: block;
   height: 40px;
@@ -1448,7 +1411,7 @@ table tr:hover {
   font-size: 55px;
   color: #0078d9;
   line-height: 0.6;
-}
+}*/
 
 .post-author {
   display: -webkit-box;
@@ -1696,7 +1659,8 @@ table tr:hover {
 .site-footer .footer-heading {
   margin: 0 0 30px;
   font-size: 37px;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Georgia';
+  font-style: italic;
   text-align: center;
   font-weight: 400;
   line-height: 30px;

@@ -9,7 +9,7 @@
           </a>
         </li>
         {% else %}
-        {% endif %} 
+        {% endif %}
         {% if site.facebook %}
         <li>
           <a href="{{ site.facebook }}" target="_blank">
@@ -17,7 +17,7 @@
           </a>
         </li>
         {% else %}
-        {% endif %} 
+        {% endif %}
         {% if site.google-plus %}
         <li>
           <a href="{{ site.google-plus }}" target="_blank">
@@ -35,26 +35,13 @@
         {% else %}{% endif %}
         {% if site.pinterest %}
         <li>
-          <a href="{{ site.pinterest }}" target="_blank">
-            <i class="fa fa-pinterest" aria-hidden="true"></i>
+          <a href="{{ site.linkedin }}" target="_blank">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
           </a>
         </li>
         {% else %}
         {% endif %}
       </ul>
-    </div>
-    <div class="info-newsletter">
-      <div class="newsletter">
-        <form class="newsletter-form validate" action="{% if site.mailchimp %}//{{site.mailchimp}}{% else %}#{% endif %}" method="POST"
-          id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-          <div class="c-newsletter-form-group">
-            <label class="screen-reader-text" for="mce-EMAIL">Enter your email address</label>
-            <input class="c-newsletter-email required email" id="mce-EMAIL" type="email" name="EMAIL" placeholder="Enter your email address"
-              autocomplete="on">
-            <input class="newsletter-button" id="mc-embedded-subscribe" type="submit" name="subscribe" value="Subscribe">
-          </div>
-        </form>
-      </div>
     </div>
   </div> <!-- /.info-wrapper -->
 </div> <!-- /.info-box -->
