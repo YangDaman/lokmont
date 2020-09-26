@@ -983,7 +983,7 @@ table tr:hover {
 
 .info-social-list li a {
   width: 20%;
-  float: left;
+  float:left;
   text-align: center;
   line-height: 60px;
 }
