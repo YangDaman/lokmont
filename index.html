@@ -5,6 +5,7 @@
 layout: default
 ---
 <style>
+
 .parallax {
   /* The image used */
   background-image: url({{"/images/" | prepend: site.baseurl | append : site.hero}});
@@ -18,16 +19,19 @@ layout: default
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 </style>
 
-<div class="parallax"></div>
-
-<div class="hero">
-  <div class="hero-content">
-    <h1 class="hero-title">{% if site.hero-title %}{{site.hero-title}}{% else %}Welcome to <span>Lokmont</span>{% endif %}</h1>
-    <div class="hero-description">{% if site.hero-description %}{{site.hero-description}}{% else %}A Responsive Jekyll Blog Theme. Theme suitable for any kind of creators.{% endif %}</div>
+<div class="parallax">
+  <div class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">{% if site.hero-title %}{{site.hero-title}}{% else %}Welcome to <span>Lokmont</span>{% endif %}</h1>
+      <div class="hero-description">{% if site.hero-description %}{{site.hero-description}}{% else %}A Responsive Jekyll Blog Theme. Theme suitable for any kind of creators.{% endif %}</div>
+    </div>
   </div>
 </div>
+
+
 
 
 {% include info-box.html %}
